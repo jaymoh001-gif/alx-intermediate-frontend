@@ -1,0 +1,19 @@
+-color: #333;
+-color: #3498db;
+
+body {
+  font-family: Arial, sans-serif;
+  color: -color;
+  background-color: lighten(-color, 40%);
+  padding: 20px;
+}
+
+h1 {
+  color: -color;
+  font-size: 2rem;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+}
